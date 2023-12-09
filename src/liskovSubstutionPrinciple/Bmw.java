@@ -1,22 +1,23 @@
 package liskovSubstutionPrinciple;
-// ---> Liskov Substution P Tureyen siniflar base siniflarin butun ozelliklerini kullanmak zorundadir.
 
-public class Araba {
-	
+
+//public class Bmw extends Araba2{
+public class Bmw extends Araba2{
+
+	@Override
 	public void go() {
 		System.out.println("Bmw gidiyor");
 	}
 	
+	@Override
 	public void stop() {
 		System.out.println("Bmw duruyor");
 	}
 	
+	@Override
 	public void sendSms() {
 		System.out.println("sms");
 	}
 	
-	public void sendEmail() {
-		System.out.println("Email");
-	}
 
 }

@@ -1,7 +1,6 @@
 package liskovSubstutionPrinciple;
-// ---> Liskov Substution P Tureyen siniflar base siniflarin butun ozelliklerini kullanmak zorundadir.
 
-public class Araba {
+public class Araba2 {
 	
 	public void go() {
 		System.out.println("Bmw gidiyor");
@@ -15,8 +14,6 @@ public class Araba {
 		System.out.println("sms");
 	}
 	
-	public void sendEmail() {
-		System.out.println("Email");
-	}
+
 
 }
